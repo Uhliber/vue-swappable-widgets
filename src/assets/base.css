@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.box {
+    @apply shadow-lg bg-white rounded-lg p-4;
+}
+
+.center-content {
+    @apply flex items-center justify-center h-full rounded-md bg-slate-100;
+}
+
+.widget-icon {
+    @apply bg-slate-200 p-5 rounded-full;
+}
