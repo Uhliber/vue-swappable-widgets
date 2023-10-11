@@ -10,6 +10,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@shopify/draggable": "^1.1.1",
     "lucide-vue-next": "^0.284.0",
     "vue": "^3.3.4"
   },
