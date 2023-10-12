@@ -1,5 +1,7 @@
 # vue-swappable-widgets
 
+A Swappable Widgets Component made with Vue 3 + Tailwind CSS + Draggable.js
+
 ## Demo
 
 ![swappable widgets demo](https://github.com/Uhliber/vue-swappable-widgets/assets/75675306/b4e5d5cc-9a32-4459-8655-e734b964ea70)
