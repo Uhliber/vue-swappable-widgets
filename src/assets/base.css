@@ -2,12 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes animateBackground {
+    0% {
+        transform: translate3d(0,0,0);
+    }
+    100% {
+        transform: translate3d(0,-396px,0);
+    }
+}
+
 .box {
     @apply shadow-lg bg-white rounded-lg p-4;
 }
 
+.stripes-animated {
+    display: none;
+    background: repeating-linear-gradient(
+        45deg,
+        rgb(203 213 225),
+        rgb(203 213 225) 70px,
+        rgb(148 163 184) 70px,
+        rgb(148 163 184) 140px
+    );
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 400%;
+    width: 100%;
+    opacity: 0.2;
+    animation: animateBackground 5s linear infinite;
+}
+
 .center-content {
-    @apply flex items-center justify-center h-full rounded-md bg-slate-100;
+    @apply flex relative overflow-hidden items-center justify-center h-full rounded-md bg-slate-100;
 }
 
 .widget-icon {

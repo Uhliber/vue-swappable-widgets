@@ -1,5 +1,6 @@
 <template>
   <div class="center-content">
+    <div class="stripes-animated" />
     <div class="widget-icon">
       <GalleryHorizontal :size="50" />
     </div>

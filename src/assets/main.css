@@ -1,13 +1,17 @@
 @import './base.css';
 
 .draggable-mirror {
-    @apply border-2 border-yellow-600 bg-yellow-500 transition-scale bg-opacity-80 backdrop-blur-sm;
+    @apply border-2 border-primary-600 bg-primary-500 transition-scale bg-opacity-80 backdrop-blur-sm;
 }
 
 .draggable--over {
-    @apply border-2 border-yellow-800 bg-yellow-500;
+    @apply border-2 border-slate-300;
+}
+
+.draggable--over .stripes-animated {
+    display: block;
 }
 
 .draggable-source--placed {
-    @apply border-2 border-yellow-800 bg-yellow-500 transition-all;
+    @apply border-2 border-primary-800 bg-primary-500 transition-all;
 }

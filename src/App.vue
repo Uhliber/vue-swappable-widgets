@@ -5,19 +5,19 @@
         <WidgetGallery class="swappable-item transition-colors" />
       </div>
       <div class="row-span-2 grid grid-cols-12 gap-4">
-        <div class="col-span-6 box">
+        <div class="col-span-5 box">
           <WidgetCamera class="swappable-item transition-colors" />
         </div>
-        <div class="col-span-6 box">
+        <div class="col-span-7 box">
           <WidgetVideo class="swappable-item transition-colors" />
         </div>
       </div>
     </div>
     <div class="col-span-3 grid grid-rows-6 gap-4">
-      <div class="row-span-3 box">
+      <div class="row-span-2 box">
         <WidgetGame class="swappable-item transition-colors" />
       </div>
-      <div class="row-span-3 box">
+      <div class="row-span-4 box">
         <WidgetMusic class="swappable-item transition-colors" />
       </div>
     </div>
