@@ -2,8 +2,7 @@
 
 ## Demo
 
-![swappable widgets demo](https://github.com/Uhliber/vue-swappable-widgets/assets/75675306/a09d2750-734e-4b5a-be04-1facb1236ae3)
-
+![swappable widgets demo](https://github.com/Uhliber/vue-swappable-widgets/assets/75675306/b4e5d5cc-9a32-4459-8655-e734b964ea70)
 [Swappable Widgets Demo](https://uhliber.github.io/vue-swappable-widgets/)
 
 ## Recommended IDE Setup
